@@ -11,7 +11,7 @@ type MessageDataType = {
 const messageData: MessageDataType = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
     name: 'Anton',
-    message: 'Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello',
+    message: 'Hello!',
     time: '22:00',
 }
 
