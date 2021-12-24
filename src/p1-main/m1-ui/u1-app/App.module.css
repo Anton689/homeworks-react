@@ -1,5 +1,17 @@
-.App {
-
-
-
+body {
+    background-color: #212121;
 }
+
+.App {
+    background-color: #616161;
+    margin: 1% 1% 1% 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 7px;
+}
+
+.reactHw {
+    text-align: center;
+}
+
+

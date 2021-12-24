@@ -26,7 +26,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     const addUser = () => {
         if (!name.trim() || parseInt(name)) {
-            setError('error');
+            setError('Error');
             setName('');
             setButton(true);
         } else {

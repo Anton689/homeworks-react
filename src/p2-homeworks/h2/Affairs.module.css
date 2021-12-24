@@ -1,3 +1,31 @@
-.someClass {
 
+.buttonsAffairs button {
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: #424242;
+    color: #eeeeee;
+}
+
+
+.affairStyle {
+    margin-top: 4px;
+}
+
+.nameStyle {
+    margin-left: 10px;
+}
+
+.priorityStyle {
+    margin-left: 70px;
+
+
+}
+
+.deleteButton {
+    border-radius: 8px;
+    margin-left: 30px;
+    width: 3%;
+    height: 5%;
+    background-color: #212121;
+    color: #e57373;
 }

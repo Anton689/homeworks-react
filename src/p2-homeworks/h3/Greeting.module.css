@@ -3,6 +3,46 @@
 }
 
 .error {
-    border: 1px solid red;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 100px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.68);
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 1px;
+}
+
+.buttonAdd {
+    margin-left: 10px;
+    height: 20px;
+    width: 70px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #1d49aa;
+    color: whitesmoke;
+    font-size: 12px;
+    padding: 1px;
+    cursor: pointer;
+
+}
+
+.buttonAdd:hover {
+    background: #4676D7;
+}
+
+.buttonAdd:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #46484f;
+}
+
+.inputClass {
+    border-radius: 5px;
+    background-color: rgba(194, 193, 193, 0.78);
+}
+
+
+.totalUsers {
+    margin-left: 30px;
 }
