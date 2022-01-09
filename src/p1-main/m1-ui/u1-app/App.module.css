@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-    background-color: #616161;
+    /*background-color: #616161;*/
     margin: 1% 1% 1% 1%;
     padding-left: 2%;
     padding-right: 2%;
@@ -12,6 +12,40 @@ body {
 
 .reactHw {
     text-align: center;
+}
+
+.themeButton {
+    text-align: center;
+}
+
+.whiteTheme {
+    background-color: white;
+}
+
+.black {
+    background-color: #616161;
+}
+
+.buttonWhite {
+    background-color: white;
+}
+
+.buttonBlack {
+    background-color: #616161;
+}
+
+.buttonStyle {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 15px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 0;
 }
 
 
