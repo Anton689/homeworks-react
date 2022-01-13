@@ -1,7 +1,38 @@
 .header {
  color: blue;
+    display: flex;
+    width: 300px;
+
+    transition-duration: 500ms;
+    transform: translate(-310px);
+
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0px);
 }
 
 .header .active {
-    color: red;
+    color: rgba(40, 44, 52, 0.35);
+  text-decoration-color: darkgreen ;
+
 }
+
+.link {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.link:hover {
+    color: rgba(255, 0, 0, 0.73);
+
+}
+
+.drop {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: rgba(108, 30, 182, 0.37);
+}
+

@@ -13,7 +13,7 @@ export function Theme(props: propsType) {
     return (
         <button onClick={changeBgHandler}
                 className={` ${props.themeColor === s.black ? s.buttonWhite : s.buttonBlack} 
-                ${s.buttonStyle}`}>Theme Color</button>
+                ${s.buttonStyle}`}>Color</button>
     )
 }
 
