@@ -4,7 +4,7 @@
     width: 300px;
 
     transition-duration: 500ms;
-    transform: translate(-310px);
+    transform: translate(-350px);
 
 }
 
@@ -30,7 +30,7 @@
 }
 
 .drop {
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 10px;
     font-weight: bolder;
     color: rgba(108, 30, 182, 0.37);
