@@ -3,8 +3,14 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 
 function HW11() {
-    const [value1, setValue1] = useState(0)
-    const [value2, setValue2] = useState(100)
+    // const [value1, setValue1] = useState(0)
+    // const [value2, setValue2] = useState(100)
+    const [value, setValue] = React.useState<number[]>([0, 100]);
+
+    const onChangeRange = (onChangeValue: number) => {
+        setValue([onChangeValue, value[1]])
+    }
+
 
     return (
         <div>
@@ -13,18 +19,22 @@ function HW11() {
 
             {/*should work (должно работать)*/}
             <div>
-                <span>{value1}</span>
+                <span>{value[0]}</span>
                 <SuperRange
+                    onChangeRange={onChangeRange}
+                    setValue={setValue}
+                    value={value[0]}
+
                     // сделать так чтоб value1 изменялось
                 />
             </div>
 
             <div>
-                <span>{value1}</span>
-                <SuperDoubleRange
+                <span>{value[0]}</span>
+                <SuperDoubleRange value={value} setValue={setValue}
                     // сделать так чтоб value1 и value2 изменялось
                 />
-                <span>{value2}</span>
+                <span>{value[1]}</span>
             </div>
 
             <hr/>
