@@ -38,6 +38,8 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
                 onChange={handleChange}
                 aria-labelledby="range-slider"
             />
+
+            <button></button>
         </>
     )
 }
